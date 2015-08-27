@@ -496,13 +496,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_NetworkPort: 7777
-  m_NetworkAddress: localhost
+  m_NetworkAddress: 192.168.0.16
   m_DontDestroyOnLoad: 1
   m_RunInBackground: 1
   m_SendPeerInfo: 0
   m_MaxDelay: .00999999978
   m_LogLevel: 2
-  m_PlayerPrefab: {fileID: 0}
+  m_PlayerPrefab: {fileID: 171360, guid: 9970d64bcb3067d40ad69f525a760c4e, type: 2}
   m_AutoCreatePlayer: 1
   m_PlayerSpawnMethod: 0
   m_OfflineScene: 
@@ -539,6 +539,7 @@ MonoBehaviour:
   matchMaker: {fileID: 0}
   matchName: default
   matchSize: 4
+  textInfo: {fileID: 1295588853}
 --- !u!4 &1403596336
 Transform:
   m_ObjectHideFlags: 0
